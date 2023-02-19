@@ -141,8 +141,10 @@ void showAllAccInfo(void)
     {
         cout << "계좌 ID: "<<accArr[i].accID <<endl;
         cout<< "이  름: "<<accArr[i].cusName<<endl;
-        cout<< "잔  액: "<<accArr[i].balance<<endl;
+        cout<< "잔  액:  "<<accArr[i].balance<<endl;
     }
+
+
 
     
 }
